@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3324
+
+js-mask: Give Your JavaScript A Beautiful Mask So It Wouldn't Look Ugly
+=======================================================================
+
+A Vim plugin that makes your javascripts look more concise. The original intention is to make anonymous function less verbose and easier to understand at a glance. Requires Vim at least version 7.3.
+
+Before:
+    function Add(b, c) { return b + c; };
+    setTimeout(function() { console.log("wooot") }, 10);
+
+After:
+    𝑓 Add(b, c) { return b + c; };
+    setTimeout(𝑓 { console.log("wooot") }, 10);
+
+That's it. Check https://github.com/tyok/js-mask for more docs.
+
+Feel free to suggest additions and improvements via https://github.com/tyok/js-mask/issues. Or you can fork this from https://github.com/tyok/js-mask and add your own very personalized flavor.
+
+Inspired by https://github.com/ehamberg/vim-cute-python which, in turn, is inspired by vimscript#3200.
